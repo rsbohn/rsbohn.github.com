@@ -1,12 +1,67 @@
 <html>
 <head>
 <title>Randall S. Bohn</title>
-<style>
-</style>
+<link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
-<p>Put something interesting here.</p>
-<div id="footer">Randall S. Bohn 2011</div>
+<div class="topbar" data-scrollspy="scrollspy">
+<div class="topbar-inner">
+<div class="container">
+<a class="brand" href="#">rsbohn<a>
+<ul class="nav">
+<li><a href="#about">about</a>
+<li><a href="#projects">projects</a>
+<li><a href="#contact">contact</a>
+</ul>
+</div>
+</div>
+</div>
+
+<section id="about">
+<div class="container">
+<div class="row"><br/><br/><br/></div>
+<div class="row">
+<h3>About Randall Bohn</h3>
+<div class="span5">I work for <a href="https://wingcash.com">WingCash</a>,
+a cash payment platform. WingCash invites you to live on cash.
+</div>
+<div class="span5">
+<p>I live in Orem, Utah with my wife and three children.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="projects">
+<div class="container">
+<h3>Projects</h3>
+<div class="row">
+<div class="span5">
+<h5>ArdKynGookler</h5>
+<p>A Kynetx application allows an Arduino based controller
+to water your lawn according to a schedule in Google Calendar.</p>
+<p>(a collaboration with @telegramsam)</p>
+</div>
+<div class="span5">
+<h5><a href="https://github.com/rsbohn/ArduinoISP">ArduinoISP</a></h5>
+<p>Use your Arduino to burn the Arduino bootloader on a raw AVR chip.
+You can also use it with avrdude to flash other AVR chips. Emulates
+an stk500v1 programmer.</p>
+</div>
+<div class="span5">
+<h5>Others</h5>
+<div><a href="http://must-have-tacos.heroku.com">Must Have Tacos</a></div>
+<div><a href="http://deep-window-4699.herokuapp.com">Wingshare</a></div>
+</div>
+</div><!-- row -->
+</div>
+</section>
+<section id="contact">
+<div class="container">
+<h3>Contact Information</h3>
+<p>@rsbohn on twitter</p>
+</div>
+</section>
+<footer id="footer" class="footer">Randall S. Bohn 2011</footer>
 <script type="text/javascript">
       var d = document;
       var s = d.createElement("script");
