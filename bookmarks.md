@@ -3,3 +3,4 @@
 [github](https://github.com)
 [tv](http://www.youtube.com/user/lockergnome/videos?view=e)
 [SuperBetter](http://www.superbetter.com/)
+[RSM Kynetx] (http://developer.kynetx.com/display/docs/RSM)
