@@ -1,69 +1,39 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title>Randall S. Bohn</title>
-<link rel="stylesheet" href="bootstrap.min.css">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Randall S. Bohn — Portfolio</title>
+      <link rel="stylesheet" href="bootstrap.min.css">
+      <style>
+            body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+            main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+            header h1 { margin-bottom: .25rem; }
+            .sea-lorem p { margin-bottom: .8rem; }
+      </style>
 </head>
 
 <body>
-<section id="about">
-<div class="container">
-<div class="row"><br/><br/><br/></div>
-<div class="row">
-<h3>About Randall Bohn</h3>
-<div class="span8">I work for <a href="https://familysearch.org">FamilySearch</a>.
-I help provide access to billions of historical records.
-</div>
-<div class="span8">
-<p>I live in Orem, Utah with my wife and three children.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="projects">
-<div class="container">
-<h3>Projects</h3>
-<div class="row">
-<div class="span5">
-<h5><a href="https://github.com/rsbohn/9pJSON">9pJSON</a></h5>
-<p>A new implementation of 9p that can use 9p2000 or JSON as
-a wire protocol.</p>
-</div>
-<div class="span5">
-<h5>ArdKynGookler</h5>
-<p>A Kynetx application allows an Arduino based controller
-to water your lawn according to a schedule in Google Calendar.</p>
-<p>(a collaboration with @telegramsam)</p>
-</div>
-<div class="span5">
-<h5><a href="https://github.com/rsbohn/ArduinoISP">ArduinoISP</a></h5>
-<p>Use your Arduino to burn the Arduino bootloader on a raw AVR chip.
-You can also use it with avrdude to flash other AVR chips. Emulates
-an stk500v1 programmer.</p>
-</div>
-<div class="span5">
-<h5>Others</h5>
-<div><a href="http://must-have-tacos.heroku.com">Must Have Tacos</a></div>
-<div><a href="http://deep-window-4699.herokuapp.com">Wingshare</a></div>
-</div>
-</div><!-- row -->
-</div>
-</section>
-<section id="contact">
-<div class="container">
-<h3>Contact Information</h3>
-<p>@rsbohn on twitter</p>
-</div>
-</section>
-<footer id="footer" class="footer">Randall S. Bohn 2011</footer>
-<script type="text/javascript">
-      var d = document;
-      var s = d.createElement("script");
-      s.text='KOBJ_configs=typeof(KOBJ_CONFIGS)=="undefined"?[]:KOBJ_configs;'+
-      'KOBJ_configs.push({ "rids": ["a421x99"],"a421x99:site_tag": "true" });';
-      d.body.appendChild(s);
-      var l = d.createElement('script');
-      l.src='http://init.kobj.net/js/shared/kobj-static.js';
-      d.body.appendChild(l);
-</script>
+      <main>
+            <header>
+                  <h1>Randall S. Bohn</h1>
+                  <p class="lead">Software engineer, maker, and family historian. I build tools that help people discover and use historical records.</p>
+            </header>
+
+            <section id="about">
+                  <h2>About me</h2>
+                  <p>I live in Orem, Utah with my wife and children. I enjoy embedded systems, distributed systems, and exploring ways to make large datasets easier to search and understand. When I'm not coding I like hiking, tinkering with electronics, and reading.</p>
+            </section>
+
+            <section id="sea-lorem" class="sea-lorem">
+                  <h2>Sea Creatures Lorem Ipsum</h2>
+                  <p>Coral ipsum dolor sit amet, sea anemone plankton squid, krill porpoise mollusk. Seahorse wave kelp barnacle currents, planktonic marlin tidepool. Nautilus scallop kraken fluke, tide reef dolphin swells.</p>
+                  <p>Octopus chiton buoy manta clam, algae sonar school-of-fish oyster. Lobster current seagrass, whale song anglerfish shoal. Starfish driftwood planktonic grotto, kelpforest coraline tide.</p>
+                  <p>Squidward (just kidding) — use this block as placeholder text with a touch of oceanic whimsy: drift, tide, reef, surf, kelp, shell, and the soft hush of the deep blue.</p>
+            </section>
+
+            <footer class="mt-4 text-muted">&copy; 2025 Randall S. Bohn</footer>
+      </main>
+
 </body>
 </html>
